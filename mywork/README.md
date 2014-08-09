@@ -9,5 +9,5 @@ In this folder, there are six functions and four png files, where `readDate.R` i
 <!-- -->
         setwd(getwd()) ## remember set working directory
         file <- "../../household_power_consumption.txt" ## your file path
-        source("runAll.R") ## load the function runALL
+        source("runAll.R") ## load the function runAll
         runAll(file)
